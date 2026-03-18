@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Platform/Api-gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Platform/Config-Server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Platform/Config-Server/src/main/resources/configurations" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Platform/platform-registry" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Services" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Services/Enrollment-Service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Services/Student-Service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Services/program-Service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Webapp" vcs="Git" />
+  </component>
+</project>

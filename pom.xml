@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>lk.ijse.eca</groupId>
+    <artifactId>Capstone-Project</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>Platform/Api-gateway</module>
+        <module>Platform/Config-Server</module>
+        <module>Platform/platform-registry</module>
+        <module>Services/Enrollment-Service</module>
+        <module>Services/program-Service</module>
+        <module>Services/Student-Service</module>
+
+    </modules>
+
+
+</project>
