@@ -1,0 +1,9 @@
+[submodule "Platform"]
+	path = Platform
+	url = https://github.com/Himanthajaga/Capstone-Project-Platform.git
+[submodule "Services"]
+	path = Services
+	url = https://github.com/Himanthajaga/Capstone-Project-Services.git
+[submodule "Webapp"]
+	path = Webapp
+	url = https://github.com/Himanthajaga/Capstone-Project-Webapp.git
