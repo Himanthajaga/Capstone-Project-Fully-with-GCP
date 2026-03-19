@@ -4,13 +4,13 @@ Polyrepo architecture with Git submodules, implemented with Spring Cloud and dep
 
 ## 1. Student Information
 
-| Field | Value |
-|---|---|
-| Module | ITS 2130 Enterprise Cloud Application |
-| Program | HDSE @ IJSE |
-| Student Name | <YOUR_NAME> |
-| Student ID | <YOUR_ID> |
-| Submission Date | 2026-03-22 |
+| Field | Value                                                           |
+|---|-----------------------------------------------------------------|
+| Module | ITS 2130 Enterprise Cloud Application                           |
+| Program | HDSE @ IJSE                                                     |
+| Student Name | J.G Himantha                                                    |
+| Student ID | 2301692032                                                      |
+| Submission Date | 2026-03-22                                                      |
 | Main Submission Repository | https://github.com/Himanthajaga/Capstone-Project-Fully-with-GCP |
 
 ## 2. Project Overview
@@ -24,11 +24,11 @@ This project uses Spring Cloud microservices in a polyrepo model.
 
 ## 3. Live Public URLs (Mandatory)
 
-| Component | Public URL |
-|---|---|
-| Frontend Application | <YOUR_FRONTEND_PUBLIC_URL> |
-| API Gateway | <YOUR_API_GATEWAY_PUBLIC_URL> |
-| Eureka Dashboard (Mandatory) | <YOUR_EUREKA_DASHBOARD_PUBLIC_URL> |
+| Component | Public URL                                           |
+|---|------------------------------------------------------|
+| Frontend Application | <YOUR_FRONTEND_PUBLIC_URL>                           |
+| API Gateway | 35.240.174.45:80                                     |
+| Eureka Dashboard (Mandatory) | http://34.126.150.84:9001/,<br/>http://136.110.6.3:9001/,<br/>http://35.247.168.238:9001/ |
 
 ## 4. Repository Structure (Polyrepo + Submodules)
 
@@ -73,51 +73,49 @@ It demonstrates that microservices are reachable and functioning correctly in th
 
 All required cloud resources are deployed and visible in the GCP Console.
 
-| Required Resource | Evidence |
-|---|---|
-| VM Instance Groups | <EVIDENCE_LINK_OR_NOTE> |
-| Virtual Machines (VMs) | <EVIDENCE_LINK_OR_NOTE> |
-| VM Instance Templates | <EVIDENCE_LINK_OR_NOTE> |
-| Disk Images | <EVIDENCE_LINK_OR_NOTE> |
-| Health Checks | <EVIDENCE_LINK_OR_NOTE> |
-| Cloud DNS | <EVIDENCE_LINK_OR_NOTE> |
-| Load Balancing | <EVIDENCE_LINK_OR_NOTE> |
-| Cloud NAT Gateway | <EVIDENCE_LINK_OR_NOTE> |
-| Cloud SQL Instances | <EVIDENCE_LINK_OR_NOTE> |
-| Firestore | <EVIDENCE_LINK_OR_NOTE> |
-| Cloud Storage (Buckets) | <EVIDENCE_LINK_OR_NOTE> |
-| Cloud Router | <EVIDENCE_LINK_OR_NOTE> |
-| VPC Network | <EVIDENCE_LINK_OR_NOTE> |
-| Firewall Rules | <EVIDENCE_LINK_OR_NOTE> |
+| Required Resource | Evidence                 |
+|---|--------------------------|
+| VM Instance Groups | Included in screen vedio |
+| Virtual Machines (VMs) | Included in screen vedio  |
+| VM Instance Templates | Included in screen vedio  |
+| Disk Images | Included in screen vedio  |
+| Health Checks | Included in screen vedio  |
+| Cloud DNS | Included in screen vedio  |
+| Load Balancing | Included in screen vedio  |
+| Cloud NAT Gateway | Included in screen vedio  |
+| Cloud SQL Instances | Included in screen vedio  |
+| Firestore | Included in screen vedio  |
+| Cloud Storage (Buckets) | Included in screen vedio  |
+| Cloud Router | Included in screen vedio  |
+| VPC Network | Included in screen vedio  |
+| Firewall Rules | Included in screen vedio |
 
 ## 8. Cloud Storage Requirement (Mandatory)
 
 At least one microservice stores files in a Google Cloud Storage bucket.
 
-| Field | Value |
-|---|---|
-| Service Name | <SERVICE_NAME> |
-| API Endpoint | <ENDPOINT> |
-| Bucket Name | <BUCKET_NAME> |
-| Evidence (API/UI) | <EVIDENCE_LINK_OR_NOTE> |
+| Field | Value                   |
+|---|-------------------------|
+| Service Name | Student-Service         |
+| Bucket Name | db-capstone             |
 
 ## 9. High Availability and Auto Scaling (Mandatory)
 
 ### 9.1 Microservice Auto Scaling
 
 | Check | Value |
-|---|---|
-| Horizontal scaling supported | <YES_OR_NO> |
-| Autoscaler configuration | <DETAILS> |
-| Instance group details | <DETAILS> |
+|---|--|
+| Horizontal scaling supported | YES |
+| Autoscaler configuration | Included in screen vedio |
+| Instance group details | Included in screen vedio |
 
 ### 9.2 Platform High Availability
 
-| Check | Value |
-|---|---|
-| Multi-instance deployment | <YES_OR_NO> |
-| Multi-zone deployment | <ZONE_1>, <ZONE_2>, <ZONE_3> |
-| Fault-tolerance evidence | <EVIDENCE_LINK_OR_NOTE> |
+| Check | Value                                                   |
+|---|---------------------------------------------------------|
+| Multi-instance deployment | YES                                                     |
+| Multi-zone deployment | asia-southeast1-a, asia-southeast1-b, asia-southeast1-c |
+| Fault-tolerance evidence | Included in screen vedio                                |
 
 ## 10. PM2 Process Management and Auto Restart (Mandatory)
 
@@ -136,14 +134,16 @@ pm2 save
 
 | Requirement | Status |
 |---|---|
-| Applications started and managed by PM2 | <YES_OR_NO> |
-| Logs written to correct location | <YES_OR_NO> |
-| Auto restart on failure | <YES_OR_NO> |
-| PM2 starts on VM reboot | <YES_OR_NO> |
+| Applications started and managed by PM2 | YES |
+| Logs written to correct location | YES |
+| Auto restart on failure | YES |
+| PM2 starts on VM reboot | YES |
 
 ## 11. Eureka Dashboard (Mandatory)
 
-Public Eureka Dashboard URL: <YOUR_EUREKA_DASHBOARD_PUBLIC_URL>
+Public Eureka Dashboard URL: http://34.126.150.84:9001/,
+http://136.110.6.3:9001/,
+http://35.247.168.238:9001/
 
 ## 12. Screen Recording Submission (Mandatory)
 
@@ -165,15 +165,3 @@ cd Capstone-Project-Fully-with-GCP
 git submodule update --init --recursive
 git submodule status --recursive
 ```
-
-## 14. Final Submission Checklist
-
-- [x] Main repository contains Platform, Services, and Webapp as submodules
-- [x] Nested submodules inside Platform and Services are accessible
-- [ ] Frontend consumes deployed APIs via API Gateway URL
-- [ ] Public Eureka Dashboard URL is included
-- [ ] All mandatory GCP resources are demonstrated
-- [ ] Cloud Storage bucket usage is demonstrated
-- [ ] Auto scaling and high availability are demonstrated
-- [ ] PM2 management and automatic restart are demonstrated
-- [ ] Screen recording link is included
