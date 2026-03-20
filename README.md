@@ -7,7 +7,7 @@ Polyrepo architecture with Git submodules, implemented with Spring Cloud and dep
 | Field | Value                                                           |
 |---|-----------------------------------------------------------------|
 | Module | ITS 2130 Enterprise Cloud Application                           |
-| Program | HDSE @ IJSE                                                     |
+| Program | GDSE @ IJSE                                                     |
 | Student Name | J.G Himantha                                                    |
 | Student ID | 2301692032                                                      |
 | Submission Date | 2026-03-22                                                      |
