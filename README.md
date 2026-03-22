@@ -25,9 +25,9 @@ This project uses Spring Cloud microservices in a polyrepo model.
 
 ## 3. Live Public URLs (Mandatory)
 
-| Component | Public URL                                           |
-|---|------------------------------------------------------|
-| Frontend Application | 34.21.151.150:80                           |
+| Component | Public URL                                                                                  |
+|---|---------------------------------------------------------------------------------------------|
+| Frontend Application | http://34.21.151.150:80                                                                     |
 | Eureka Dashboard (Mandatory) | http://34.126.186.15:9001/,<br/>http://34.124.176.187:9001/,<br/>http://34.158.34.135:9001/ |
 
 ## 4. Repository Structure (Polyrepo + Submodules)
