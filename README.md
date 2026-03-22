@@ -74,10 +74,10 @@ It demonstrates that microservices are reachable and functioning correctly in th
 ### 7.1 Microservice Auto Scaling
 
 | Check | Value |
-|---|--|
-| Horizontal scaling supported | YES |
-| Autoscaler configuration | Included in screen vedio |
-| Instance group details | Included in screen vedio |
+|---|-------|
+| Horizontal scaling supported | YES   |
+| Autoscaler configuration | YES   |
+| Instance group details | YES   |
 
 ### 7.2 Platform High Availability
 
@@ -85,7 +85,7 @@ It demonstrates that microservices are reachable and functioning correctly in th
 |---|---------------------------------------------------------|
 | Multi-instance deployment | YES                                                     |
 | Multi-zone deployment | asia-southeast1-a, asia-southeast1-b, asia-southeast1-c |
-| Fault-tolerance evidence | Included in screen vedio                                |
+| Fault-tolerance evidence | YES                                                     |
 
 ## 8. PM2 Process Management and Auto Restart (Mandatory)
 
